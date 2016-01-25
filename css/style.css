@@ -11,7 +11,7 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lora", serif;
 }
 
 .clear-fix {
@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #00C0FF;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +34,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #6D6D6D;
   line-height: 29px;
   padding: 10px;
 }
@@ -54,13 +54,15 @@ h4 {
 }
 
 h2,
-h3,
 h4,
 h5 {
   padding:10px 5%;
 
 }
 
+h3 {
+  padding: 20px 0 10px 0;
+}
 
 .date-text {
   font-style: italic;
@@ -85,10 +87,10 @@ p {
   line-height: 21px;
 }
 
-a {
-  color: #1199c3;
+a, a:active, a:visited {
+  color: #047A9E;
   text-decoration: none;
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
   display: block;
 }
 
@@ -100,16 +102,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #00C0FF;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
+.blue {
+  background-color: #00C0FF;
 }
 
-.orange-text {
-  color: #f5ae23;
+.blue-text {
+  color: #00C0FF;
 }
 
 .white-text {
