@@ -10,7 +10,7 @@ var bio = {
    },
    "welcomeMessage" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
    "skills" : ["Sample Skill", "Another Skill", "HTML", "CSS", "JavaScript", "Version Control"],
-   "bioPic" : "images/197x148.gif",
+   "biopic" : "images/197x148.gif",
    "display" : function() {
 
      // Displays name and role
@@ -56,9 +56,9 @@ var bio = {
      }
 
      // Displays contact photo
-     if  (bio.bioPic.length > 0) {
-       var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
-       $("#header").append(formattedBioPic);
+     if  (bio.biopic.length > 0) {
+       var formattedBiopic = HTMLbioPic.replace("%data%", bio.biopic);
+       $("#header").append(formattedBiopic);
      }
 
      // Displays welcome message
