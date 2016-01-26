@@ -92,8 +92,7 @@ var bio = {
 bio.display();
 
 var work = {
-  "jobs" : [
-    {
+  "jobs" : [{
       "employer" : "Sample Employer",
       "title" : "Role",
       "location" : "London, United Kingdom",
@@ -103,8 +102,7 @@ var work = {
       excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia \
       deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis \
       est et expedita distinctio."
-    },
-    {
+    },{
       "employer" : "Another Employer",
       "title" : "Role",
       "location" : "London, United Kingdom",
@@ -142,8 +140,7 @@ var work = {
 work.display();
 
 var projects = {
-  "projects" : [
-    {
+  "projects" : [{
       "title" : "Sample Project",
       "dates" : "2012 - Present",
       "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \
@@ -151,8 +148,7 @@ var projects = {
       architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur \
       aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
       "images" : ["images/197x148.gif", "images/197x148.gif", "images/197x148.gif"]
-    },
-    {
+    },{
       "title" : "Another Project",
       "dates" : "2014 - 2015",
       "description" : "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci \
@@ -190,8 +186,7 @@ var projects = {
 projects.display();
 
 var education = {
-  "schools" : [
-    {
+  "schools" : [{
       "name" : "Sample University",
       "location" : "London, United Kingdom",
       "degree" : "BA",
@@ -200,36 +195,31 @@ var education = {
       "url" : "http://example.edu"
     }
   ],
-  "onlineCourses" : [
-    {
+  "onlineCourses" : [{
       "title" : "JavaScript Basics",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
       "date" : "2016",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud804-nd"
-    },
-    {
+    },{
       "title" : "How to Use Git and GitHub",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
       "date" : "2016",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud775"
-    },
-    {
+    },{
       "title" : "Responsive Images",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
       "date" : "2015",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud882-nd"
-    },
-    {
+    },{
       "title" : "Responsive Web Design Fundamentals",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
       "date" : "2015",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud893-nd"
-    },
-    {
+    },{
       "title" : "Intro to HTML and CSS",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
