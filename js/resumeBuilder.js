@@ -186,7 +186,7 @@ var education = {
       "location" : "London, United Kingdom",
       "degree" : "BA",
       "majors" : ["Sample Major"],
-      "dates" : 2009,
+      "dates" : "2009",
       "url" : "http://example.edu"
     }
   ],
@@ -195,35 +195,35 @@ var education = {
       "title" : "JavaScript Basics",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
-      "dates" : 2016,
+      "date" : "2016",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud804-nd"
     },
     {
       "title" : "How to Use Git and GitHub",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
-      "dates" : 2016,
+      "date" : "2016",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud775"
     },
     {
       "title" : "Responsive Images",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
-      "dates" : 2015,
+      "date" : "2015",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud882-nd"
     },
     {
       "title" : "Responsive Web Design Fundamentals",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
-      "dates" : 2015,
+      "date" : "2015",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud893-nd"
     },
     {
       "title" : "Intro to HTML and CSS",
       "school" : "Udacity",
       "majors" : ["Front-End Web Development"],
-      "dates" : 2015,
+      "date" : "2015",
       "url" : "https://www.udacity.com/course/viewer#!/c-ud304-nd"
     }
   ],
@@ -256,7 +256,7 @@ var education = {
       var formattedOnlineCourseTitle = formattedOnlineTitle + formattedOnlineSchool;
       $(".education-entry:last").append(formattedOnlineCourseTitle);
 
-      var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
+      var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].date);
       $(".education-entry:last").append(formattedOnlineDates);
 
       var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[course].url);
