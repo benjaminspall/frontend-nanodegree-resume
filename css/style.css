@@ -103,6 +103,7 @@ a, a:active, a:visited {
 
 #skills-h3 {
   color: #00C0FF;
+  padding-bottom: 0;
   display: none;
 }
 

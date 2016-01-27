@@ -19,7 +19,7 @@ var bio = {
      "location" : "San Francisco, United States"
    },
    "welcomeMessage" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-   "skills" : ["Sample Skill", "Another Skill", "HTML", "CSS", "JavaScript", "Version Control"],
+   "skills" : ["HTML", "CSS", "JavaScript", "Version Control"],
    "biopic" : "images/197x148.gif",
    "display" : function() {
 
